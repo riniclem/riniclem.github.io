@@ -1,0 +1,41 @@
+baseURL: 'https://dev.loopback.in/'
+theme: 'PaperMod'
+paginate: 5
+languageCode: 'ta-in'
+title: கத்தோலிக்க திருவழிபாடு
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+pluralizeListTitles: false
+languages:
+  en:
+    menu:
+      main:
+        - name: முகப்புப் பக்கம்
+          pageRef: /
+          weight: 5
+        - name: திருப்பலி 
+          url: mass
+          weight: 10
+
+params:
+  mainSections:
+    - திருப்பலி
+  env: production
+  author: ரினி
+  # author: ["Me", "You"] # multiple authors
+  defaultTheme: auto # dark, light
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  comments: false
+  homeInfoParams:
+    Title: "வணக்கம் நண்பர்களே"
+    Content: >
+      இந்த வலைத்தளத்தில் கத்தோலிக்க திருவழிபாட்டில் பயன்படுத்தப்படும் ஜெபங்கள் இடம்பெற்றுள்ளன.
+
